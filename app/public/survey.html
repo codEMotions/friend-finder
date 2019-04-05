@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Server Route</title>
+
+     <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Nunito+Sans|Permanent+Marker" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 id="appHeader">Friend Finder's</h1>
+    <h1>Survery Questions</h1>
+
+    <div class="user-input">
+        <h2>About You:</h2>
+        <label for="Name">Name (Required): </label><br>
+        <input id="Name"></input>
+        <br>
+        <label for="Photo">Link to Photo Image (Required): </label><br>
+        <input id="photo"></input>
+    </div>
+
+
+    <div class="form-group">
+            <label for="exampleFormControlSelect1">Example select</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+    <div class="questions">
+        <h2>Question 1</h2>
+
+        <p>You like basketball</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu" id="q1">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+
+        <h2>Question 2</h2>
+
+        <p>You like baseball</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+
+        <h2>Question 3</h2>
+
+        <p>You like football</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+
+        <h2>Question 4</h2>
+
+        <p>You like hockey</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+
+        <h2>Question 5</h2>
+
+        <p>You like curling</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+
+        <h2>Question 6</h2>
+
+        <p>You like parkour</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+
+        <h2>Question 7</h2>
+
+        <p>You like naked ice fishing</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+
+        <h2>Question 8</h2>
+
+        <p>You have high political aspirations and like hunting quail</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+
+        <h2>Question 9</h2>
+
+        <p>You like Nascar</p>
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+
+        <h2>Question 10</h2>
+
+        <p>You own or have dabbled with tarot cards</p>
+        <div class="dropup">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an Option
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="select-option">Rate the Question</li>
+                <li><a href="#">1 (strongly disagree)</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5 (strongly agree)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <button class="submit">Submit</button>
+
+    <!-- create a form that uses input for name, and an id for the value as well as image link, and add a drop down for the
+    ratings. -->
+
+    <!-- //once you finish the form, in the script tag pull in the data that was entered, and make an object, post request to
+/api/friends after object created, include new user, so data will arive at the friends route. Then take this new user
+object and take all the friends and go 1 by 1 to compare to new users scores, and whoever scores are closest were gonna
+send back to them. Code in the API post. Display the new friend in a modal with bootstrap. -->
+
+<script>
+
+
+$(".submit").on("click", function(event) {
+    event.preventDefault();
+    console.log($("#exampleFormControlSelect1").val())
+
+    var surveyQuestions = {
+      name: $("#name").val().trim(),
+      photo: $("#photo").val().trim(),
+      scores: [$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ,$("#exampleFormControlSelect1").val()
+      ]
+    };
+    console.log(surveyQuestions)
+
+$.post("/api/friends", surveyQuestions,
+      function(data) {
+        console.log(data)
+
+      });
+</script>
+</body>
+
+</html>
+
